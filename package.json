@@ -1,0 +1,34 @@
+{
+  "name": "finance-content-bot",
+  "version": "1.0.0",
+  "description": "Fully automated finance video content creation and publishing to YouTube + Instagram",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js",
+    "youtube-auth": "node youtube-auth.js",
+    "test": "node bot.js"
+  },
+  "keywords": [
+    "finance",
+    "youtube",
+    "instagram",
+    "automation",
+    "ai",
+    "content-generation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "googleapis": "^118.0.0",
+    "sharp": "^0.33.0",
+    "cheerio": "^1.0.0-rc.12",
+    "p-queue": "^7.3.4"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
